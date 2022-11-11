@@ -1,0 +1,11 @@
+{
+  "tagVersionPrefix": "v_",
+  "packages": ["packages/*"],
+  "version": "independent",
+  "cammand": {
+    "publish": {
+      "ignore": ["packages/umd/**"]
+    }
+  }
+}
+
