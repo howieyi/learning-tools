@@ -1,0 +1,50 @@
+{
+  "name": "@howieyi/config",
+  "version": "1.0.0",
+  "description": "环境隔离工具",
+  "author": "howieyi <247767221@qq.com>",
+  "homepage": "https://github.com/howieyi/learning-tools#readme",
+  "license": "ISC",
+  "main": "lib/config.js",
+  "bin": {
+    "config": "./lib/config.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://packages.aliyun.com/5f0bc7c1db0493ecef909873/npm/npm-registry/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howieyi/learning-tools.git"
+  },
+  "scripts": {
+    "conf": "node ./lib/config.js -e test -o dist/config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/howieyi/learning-tools/issues"
+  },
+  "dependencies": {
+    "commander": "^9.1.0",
+    "fs-extra": "^10.0.1"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

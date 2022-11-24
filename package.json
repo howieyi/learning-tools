@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "postinstall": "lerna bootstrap",
+    "conf": "lerna run --scope @howieyi/config conf",
     "build:iframe:ts": "lerna run --scope @howieyi/iframe build:tsc",
     "build:iframe:father": "lerna run --scope @howieyi/iframe build",
     "deploy": "lerna publish from-package --yes"
