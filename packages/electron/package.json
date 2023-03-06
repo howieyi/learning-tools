@@ -1,0 +1,44 @@
+{
+  "name": "@howieyi/electron",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "howieyi <247767221@qq.com>",
+  "homepage": "https://github.com/howieyi/learning-tools#readme",
+  "license": "ISC",
+  "private": "true",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://packages.aliyun.com/5f0bc7c1db0493ecef909873/npm/npm-registry/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howieyi/learning-tools.git"
+  },
+  "scripts": {
+    "start": "electron ./src/app.js",
+    "build:start": "electron-forge start --app-path ./src/app.js",
+    "build:package": "electron-forge package --app-path ./src/app.js",
+    "build:make": "electron-forge make --app-path ./src/app.js --targets darwin"
+  },
+  "bugs": {
+    "url": "https://github.com/howieyi/learning-tools/issues"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.5",
+    "electron": "^23.1.2"
+  }
+}
+
+
+
+
+
+
+
+
