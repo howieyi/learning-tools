@@ -1,0 +1,27 @@
+{
+  "name": "workers",
+  "version": "1.0.0",
+  "description": "web workers",
+  "keywords": [
+    "workers"
+  ],
+  "author": "howieyi <247767221@qq.com>",
+  "homepage": "https://github.com/howieyi/learning-tools#readme",
+  "license": "ISC",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://packages.aliyun.com/5f0bc7c1db0493ecef909873/npm/npm-registry/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/howieyi/learning-tools.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/howieyi/learning-tools/issues"
+  }
+}
